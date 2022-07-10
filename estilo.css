@@ -1,0 +1,113 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn{
+    font-size: 20px;
+    top: 400px;
+    left: 40px;
+    margin: 10px;
+    position: relative;
+    z-index: 999;
+    border-radius: 58px;
+    text-align: center;
+    background-color: #F5F5F3;
+    width: 300px;
+    height: 60px;
+}
+
+.background img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;    
+}
+
+#novo{
+    display: none;
+    justify-content: center;
+}
+
+.novo{
+    margin-top: 28px;
+    background: black;
+    border-radius: 20px;
+    width: 800px;
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+
+.novo h1{
+    text-decoration: underline;
+    font-size: 40px ;
+    padding-top: 40px;
+}
+
+.novo p{
+    font-size:30px;
+    margin-top: 210px;
+}
+
+#sobre{
+    display: none;
+}
+
+.sobre{
+
+}
+
+#acordando1{
+    display: none;
+}
+
+#btnRelogio635{
+    justify-content: center;
+}
+
+.btnRelogio635{
+    /*
+    font-size: 20px;
+    top: 400px;
+    left: 40px;
+    margin: 10px;
+    position: absolute;
+    z-index: 999;
+    border-radius: 58px;
+    text-align: center;
+    width: 472px;
+    height: 337px; 
+    */
+    font-size: 20px;
+    top: 400px;
+    left: 40px;
+    margin: 10px;
+    position: relative;
+    z-index: 999;
+    border-radius: 58px;
+    text-align: center;
+    background-color: #F5F5F3;
+    width: 300px;
+    height: 60px;
+}
+
+/*
+#btnRelogio635{
+    font-size: 20px;
+    top: 400px;
+    left: 40px;
+    margin: 10px;
+    position: absolute;
+    z-index: 999;
+    border-radius: 58px;
+    width: 472px;
+    height: 337px; 
+}
+*/
